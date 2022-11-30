@@ -55,7 +55,7 @@ hr{
 .text-re-ingeneered {
     color: white;
     margin-top: -25%;
-    margin-left: 13%;
+    margin-left: 13.8%;
     font-size: 17.6px;
 }
 
@@ -63,6 +63,50 @@ hr{
     color: white;
     font-size: 67px;
     width: 301px;
-    margin-left: 13%;
-
+    margin-left: 13.8%;
 }
+
+
+.mens-button {
+    width: 90px;
+    height: 45.3;
+    border-radius: 25px;
+    background: rgb(60, 60, 255);
+}
+
+
+/*          */
+
+.wrap {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2%;
+    margin-right: 70%;
+    margin-left: 13%;
+}
+
+.button {
+    width: 140px;
+    height: 45px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+    color: #000;
+    background-color: #fff;
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+    }
+  
+  .button:hover {
+    background-color: #2e31e5;
+    box-shadow: 0px 15px 20px rgba(32, 121, 238, 0.4);
+    color: #fff;
+    transform: translateY(-7px);
+  }
