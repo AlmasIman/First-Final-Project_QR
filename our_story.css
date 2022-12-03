@@ -90,7 +90,7 @@ hr{
 #history{
     margin: 30px 0;
     width: 100%;
-    width: 75vh;
+    width: 60vh;
     font-size: 21px;
     word-spacing: 5px;
     color: rgb(5, 5, 30);
@@ -107,3 +107,95 @@ hr{
     font-size: 20px;
     text-transform: uppercase;
 }
+#ed{
+    color: white;
+}
+
+.image_text{
+    width: 100%;
+   
+}
+.image_text img{
+    width: 100%;
+    margin: 20px auto;
+    object-fit: contain;
+}
+.history_story{
+    width: 100%;
+    
+    background-image: url("https://static.wixstatic.com/media/4a879f_a60314f65db5472eb0cec4d5d8aaece3~mv2.png/v1/fill/w_624,h_538,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/Q-Faded6.png");
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+}
+.history_story p{
+   width: 150vh;
+   font-size: 21px;
+   margin: 0 auto;
+   color: rgb(107, 101, 124);
+   font-family: 'Abyssinica SIL', serif;
+   font-family: 'Alkalami', serif;
+   font-family: 'Roboto', sans-serif;
+   text-transform: uppercase;
+   padding-top: 50px;
+}
+
+
+
+
+
+
+
+.discount{
+    width: 180vh;
+    margin: 30vh auto;
+    border: 1px solid rgb(70, 70, 133, 0.2);
+    background-color: rgb(168, 161, 161, 0.2);
+    border-radius: 10px;
+}
+#para{
+    margin: 10vh 0 5vh 15vh;
+}
+.discount p{
+    font-size: 30px;
+    text-transform: uppercase;
+    color: rgb(40, 40, 151);
+    font-family: 'Abyssinica SIL', serif;
+    font-family: 'Alkalami', serif;
+    font-family: 'Mina', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+#form, #input_type{
+    margin: 20px 0 20px 15vh;
+}
+
+#form label{
+    font-size: 17px;
+    opacity: 0.9;
+    font-family: 'Lucida Sans', sans-serif;
+}
+.check, #email, #button{
+    border-radius: 5px;
+    border-color: rgb(70, 70, 133, 0.5);  
+}
+#email{
+    height: 4vh;
+    width: 35vh;
+    margin-right: 20px;
+}
+#button{
+    width: 25vh;
+    height: 6vh;
+    background-color:  rgb(70, 70, 133);
+    color: white;
+}
+
+#d_image{
+    width: 50px;
+    height: 100%;
+    margin: -44vh -10vh 0 100vh;
+}
+
+
+
+
