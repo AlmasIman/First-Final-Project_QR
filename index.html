@@ -3,28 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">\
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="index.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet"  href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap" rel="stylesheet">
     <title>Document</title>
 </head>
 <body>
-    <div style="height: 15px;"></div>
-    <div class="header">
-        <div class="logo-qr">
-            <a><a href="#"><img id="logo" src="img/qr-logo.jpg" alt="logo"></a>
+    <header>
+        <div class="backgraund-div-header"></div>
+
+        <a href="#" class="logo"><img src="img/newQrLogo.png" alt=""></a>
+
+        <ul class="navbar">
+            <li><a href="#">MAN</a></li>
+            <li><a href="#">WOMEN</a></li>
+            <li><a href="#">COLLECTIONS</a></li>
+            <li><a href="#">EXPLORE</a></li>
+        </ul>
+
+        <div class="main">
+            <a href="#" class="user"><i class="ri-user-line"></i></a>
+            <a href="#" class="basket"><i class="ri-shopping-cart-line"></i></a>
+            <div class="bx bx-menu" id="menu-icon"></div>
         </div>
-        <hr>
-        <div class="navbar">
-            <div id="navbar-sozderi"><a id="navbar-sozderi" href="#">MEN</a></div>
-            <div id="navbar-sozderi"><a id="navbar-sozderi" href="#">WOMEN</a></div>
-            <div id="navbar-sozderi"><a id="navbar-sozderi" href="#">COLLECTIONS</a></div>
-            <div id="navbar-sozderi"><a id="navbar-sozderi" href="#">EXPLORE</a></div>
-        </div>
-        <div class="icons">
-            <a href="#"><img id="icon-login" src="img/login.jpg" alt="login"></a>
-            <a href="#"><img id="icon-login" src="img/basket.jpg" alt="basket"></a>
-        </div>
-    </div>
+    </header>
+
     <div class="material-posle-header">
         <img id="backgraund-foto" src="img/bacgraund_foto.png" alt="foto">
         <div class="text-re-ingeneered">RE-ENGINEERED</div>
@@ -40,7 +47,47 @@
         </div>
     </div>
 
+    <div class="wrapper">
+        <div class="slider">
+            <div class="slider__item filter">
+                <img class="foto-1" id="foto-slider" src="img/bari-jaqsy-bolady-foto_1.png">
+                <div id="slider-sozderi">Bürjeide</div>
+                <div id="slider-sozderi">küzgı garderobtyñ bır bölıgı. bız minimalistık <br>
+                                         stildı tañdap, qr-men bırge bolyñdar</div>
+            </div>
+            <div class="slider__item">
+                <img id="foto-slider" src="img/good_days-1.png" alt="">
+                <div id="slider-sozderi">Futbolka Good Days</div>
+                <div id="slider-sozderi">SF21 / DROP1 üşınşı toptamasy storlarda <br>
+                                         satylymda jäne onlain tapsyrys berseñ bolady
+                    </div>
+            </div>
+            <div class="slider__item filter">
+                <img id="foto-slider" src="img/sen-1.png" alt="">
+                <div id="slider-sozderi">KEÑJEİDE</div>
+                <div id="slider-sozderi">senı küzdıñ suyq künderı jylytatyn keñjeide. <br>
+                                         jaña toptama satylymda</div>
+            </div>
+            <div class="slider__item">
+                <img id="foto-slider" src="img/switshot-foto_1.png" alt="">
+                <div id="slider-sozderi">ŪZYNJEÑDI POLO</div>
+                <div id="slider-sozderi">laifhak: ūzynjeñdı alasyñ, syrtynan futbolka <br>
+                                         kiesıñ, söitıp jyly jüresıñ
+                </div>
+            </div>
+            <div class="slider__item">
+                <img id="foto-slider" src="img/tazy-foto_1.png" alt="">
+                <div id="slider-sozderi">KEÑJEİDE</div>
+                <div id="slider-sozderi">senı küzdıñ suyq künderı jylytatyn keñjeide. <br>
+                                         jaña toptama satylymda</div>
+            </div>
+        </div>
 
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <!-- Slider -->
+    <script src="slick.min.js"></script>
+    <!-- index -->
     <script src="index.js"></script>
 </body>
 </html>
