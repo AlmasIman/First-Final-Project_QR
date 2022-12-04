@@ -141,20 +141,17 @@ hr{
 
 
 
-
-
-
-
 .discount{
+    display: flex;
     width: 180vh;
-    margin: 30vh auto;
+    margin: 20vh auto;
     border: 1px solid rgb(70, 70, 133, 0.2);
     background-color: rgb(168, 161, 161, 0.2);
     border-radius: 10px;
+    align-items: center;
+    justify-content: center;
 }
-#para{
-    margin: 10vh 0 5vh 15vh;
-}
+
 .discount p{
     font-size: 30px;
     text-transform: uppercase;
@@ -165,9 +162,7 @@ hr{
     font-family: 'Montserrat', sans-serif;
     font-family: 'Poppins', sans-serif;
 }
-#form, #input_type{
-    margin: 20px 0 20px 15vh;
-}
+
 
 #form label{
     font-size: 17px;
@@ -191,11 +186,71 @@ hr{
 }
 
 #d_image{
-    width: 50px;
+    width: 50vh;
     height: 100%;
-    margin: -44vh -10vh 0 100vh;
+}
+#d_text{
+    width: 85vh;
+    height: 100%;
 }
 
 
 
+
+.faqs{
+    font-family: 'Roboto', sans-serif;
+    max-width: 80vh;
+    margin: 0 auto;
+    
+}
+.questions{
+    margin-left: -20vh;
+}
+.faqs h2{
+    padding: 4px 32px;
+    font-size: 28px;
+    color: blue;
+    justify-content: center;
+    margin: 10vh auto;
+    text-align: center;
+    align-items: center;
+}
+.faqs .faq-header{
+    display: flex;
+    color: grey;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+}
+.faqs .faq-header .open,
+.faqs .faq-header .close{
+    position: absolute;
+    left: 0;
+    padding: 0 10px;
+    font-size: 22px;
+    transform: translateY(-8px);
+    opacity: 0;
+    transition: all 500ms;
+}
+
+.faqs .faq-header .open.active,
+.faqs .faq-header .close.active{
+    opacity: 1;
+    transform: translateY(0);
+}
+.faqs .faq-header h3{
+    font-size: 20px;
+    padding: 0 32px;
+}
+
+.faqs .content{
+    padding: 0 32px;
+    line-height: 2;
+    max-height: 0;
+    overflow: hidden;
+    transition: all 500ms;
+}
+.faqs .content.active{
+    max-height: 600px;
+}
 
