@@ -168,11 +168,31 @@ header {
     margin: 30px auto;
     align-items: center;
     justify-content: center;
+    margin: 10px 20vh;
 }
-.text, .images{
+.text, .img-container{
     padding: 1em;
-    verticle-align:middle;
     height: 50%;
+}
+
+
+.img-container {
+    margin: 40vh 0 0 20vw;
+    transform: translate(-50%, -50%);
+    animation: animate .7s infinite ease-in-out;
+}
+
+.img-container .main-img {
+    width: 350px;
+}
+
+@keyframes animate {
+    50% {
+        transform: translate(-50%, -48%);
+    }
+    100% {
+        transform: translate(-50%, -50%);
+    }
 }
 .text{
     width: 80vh;
@@ -181,22 +201,8 @@ header {
     font-family: 'Alkalami', serif;
     font-family: 'Roboto', sans-serif;
 }
-.images{
-   width: 100vh;
-}
-#img_1{
-    display: inline;
-    height: 100%;
-    width: 55%;
-    object-fit: cover;
-}
-#img_2{
-    float: right;
-    height: 40%;
-    width: 40%;
-    object-fit:fill;
-    margin: 60px 50px 0 -100px;
-}
+
+
 
 #zagalovok{ 
     width: 100%;
@@ -373,4 +379,3 @@ header {
 .faqs .content.active{
     max-height: 600px;
 }
-
