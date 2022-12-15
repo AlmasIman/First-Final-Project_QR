@@ -1,3 +1,10 @@
+<?php
+session_start();
+  include("connection.php");
+  include("functions.php");
+
+  $user_data = check_login($con);
+?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -29,7 +36,7 @@
         </ul>
 
         <div class="main">
-            <a href="php-signup-login-main/login.php" class="user"><i class="ri-user-line"></i></a>
+            <a href="#" class="user"><i class="ri-user-line"></i></a>
             <a href="#" class="basket"><i class="ri-shopping-cart-line"></i></a>
             <div class="bx bx-menu" id="menu-icon"></div>
         </div>
@@ -148,6 +155,4 @@
     <!-- index -->
     <script src="index.js"></script>
 </body>
-
-
 </html>
