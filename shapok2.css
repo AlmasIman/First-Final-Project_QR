@@ -98,19 +98,20 @@
     margin-right: 20px;
 }
 
-.green {
+.blackk {
     border: 1px solid;
     width: 30px;
     height: 30px;
-    background-color: green;
+    background-color: black;
     margin-right: 20px;
 }
 
-.purple {
+.bluee {
     border: 1px solid;
     width: 30px;
     height: 30px;
-    background-color: purple;
+    background-color: #293474;
+    margin-right: 20px;
 }
 
 .neponitka {
@@ -137,7 +138,7 @@
     border: 1px solid black;
     background-color: black;
     color: white;
-    width: 150px;
+    width: 150px; 
     height: 35px;
     margin-right: 20px;
 }
@@ -146,4 +147,108 @@
     border: 1px solid black;
     width: 40px;
     height: 35px;
+}
+
+.div-2-colors {
+    display: grid;
+    margin-left: 170px;
+}
+
+.black {
+    background-color: black;
+    color: white;
+    font-size: 19px;
+    width: 100px;
+    height: 100px;
+    display: grid;
+    justify-content: center;
+    align-content: flex-end;
+}
+
+.blue {
+    background-color: #293474;
+    color: white;
+    font-size: 19px;
+    width: 100px;
+    height: 100px;
+    display: grid;
+    justify-content: center;
+    align-content: flex-end;
+}
+
+.grey {
+    background-color: #999f95;
+    color: white;
+    font-size: 19px;
+    width: 100px;
+    height: 100px;
+    display: grid;
+    justify-content: center;
+    align-content: flex-end;
+}
+
+.bezhevi {
+    background-color: #7d6342;
+    color: white;
+    font-size: 19px;
+    width: 100px;
+    height: 100px;
+    display: grid;
+    justify-content: center;
+    align-content: flex-end;
+}
+
+.yellow {
+    background-color: #cb8701;
+    color: white;
+    font-size: 19px;
+    width: 100px;
+    height: 100px;
+    display: grid;
+    justify-content: center;
+    align-content: flex-end;
+}
+
+.div-2-common {
+    display: flex;
+}
+
+.div-2-firsttext {
+    font-family: 'Roboto',sans-serif;
+}
+
+.ne-turali {
+    margin-top: 20px;
+    margin-left: 52px;
+    font-size: 22px;
+    color: gray;
+}
+
+.trololo {
+    margin-top: 20px;
+    margin-left: 120px;
+    width: 550px;
+    color: gray;
+    font-size: 22px;
+}
+
+.atatat {
+    font-size: 20px;
+    color: gray;
+    margin-top: 30px;
+    margin-left: 170px;
+}
+
+.atatatat {
+    font-size: 20px;
+    font-weight: 800;
+    margin-top: 30px;
+    margin-left: 170px;
+}
+
+.atatatatat {
+    font-size: 17px;
+    width: 780px;
+    margin-top: 10px;
+    margin-left: 170px;
 }

@@ -1,0 +1,607 @@
+div{
+    display: block;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    vertical-align: baseline;
+}
+
+.otstup-left {
+    max-width: 1500px;
+    margin: 0px;
+    padding: 0 30px;
+}
+
+img {
+    padding: 0;
+    margin: 0;
+    width: 20px;
+    vertical-align: top;
+}
+
+.udalenie {
+    text-decoration: none; 
+    color: black; 
+    display: inline-flex;
+}
+
+ul {
+    list-style-type: none;
+}
+
+section {
+    display: block;
+    background-color: white;
+    padding: 0 0 50px 0;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#rows {
+    margin: 0 -15px -35px;
+}
+
+.col-4 {
+    margin-left: 30px;
+}
+
+.card-cont {
+    height: 700px;
+}
+
+.card {
+    display: flex;
+    position: relative;
+    align-items: flex-end;
+}
+
+.almasAshkan {
+    background: #000;
+    overflow: hidden;
+}
+
+.card-photo {
+    background-position: left top;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 1;
+    transition: opacity 124ms linear, transform 124ms linear;  /* Плавное изменение прозрачности и увеличения */
+	width: 100%;
+    display: block; /* Убираем полосу под картинкий */  
+}
+
+.udalenie:hover .almasAshkan .card-photo {
+    opacity: 0.5; 
+    transform: scale(1.05);
+}
+
+.hits-text {
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 1.4;
+    margin: 15px 0;
+    margin-top: -150px;  
+}
+
+.tipa-cards {
+    position: relative;
+    display: flex;
+}
+
+.photo-sells {
+    width: 200px;
+    margin-right: 30px;
+    position: relative;
+}
+
+.sell-firstDIV {
+    position: relative;
+    left: 0;
+    top: 13px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.sell-secondDIV {
+    margin-left: -280px;
+    background-color: orangered;
+    color: white;
+    vertical-align: baseline;
+    padding-left: 8px;
+    padding-top: 8px;
+}
+
+.vidjet {
+    position: relative;
+    display: block;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 2000px;
+    margin: 0 auto;
+}
+
+.sells-in {
+    position: relative;
+}
+
+.sells-inin {
+    position: absolute;
+    left: 0;
+    margin-left: 0;
+    top: 13px;
+    display: flex;
+    flex-wrap: wrap;
+    z-index: 5;
+}
+
+.sells {
+    margin-right: 0;
+    background-color: orangered;
+    color: white;
+    padding-left: 8px;
+    padding-top: 8px;
+    height: 22px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 12px 0;
+    margin-top: -290px;
+    position: absolute;
+    font-size: 12px;
+}
+
+.photo-sellss {
+    height: 375px;
+    outline: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    vertical-align: baseline;
+}
+
+.sells-name {
+    font-size: 16px;
+    font-weight: 600;
+    color: #292A2F;
+    line-height: 18px;
+}
+
+.sells-ochem {
+    font-size: 12px;
+    font-weight: 400;
+    color: #9B9B9B;
+    margin: 7px 0 2px;
+    line-height: 16px;
+}
+
+.sells-price {
+    text-align: left;
+    padding: 0;
+}
+
+.new-price {
+    font-size: 18px;
+    font-weight: 600;
+    display: inline-block;
+}
+
+.old-price {
+    font-size: 13px;
+    margin-left: 5px;
+    color: #666;
+    position: relative;
+}
+
+.line-price {
+    position: absolute;
+    margin-top: -11px;
+    margin-left: 60px;
+    width: 50px;
+}
+
+.tovari {
+    position: relative;
+    padding: 0;
+    z-index: 1;
+    margin: 0 0 20px;
+}
+
+.sami-tovari {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    display: flex;
+}
+
+.block-tovara {
+    margin-right: 30px;
+    width: 200px;
+    height: auto;
+    position: relative;
+}
+
+.tovar {
+    position: relative;
+
+}
+
+.skidka {
+    position: absolute;
+    left: 0;
+    top: 13px;
+    display: flex;
+    flex-wrap: wrap;
+    z-index: 5;
+}
+
+.skolko-skidka {
+    margin-right: 0;
+    background-color: orangered;
+    color: white;
+    padding-left: 8px;
+    padding-right: 8px;
+    height: 22px;
+    align-items: center;
+    justify-content: center;
+    padding: 0 12px 0;
+    font-size: 12px;
+    font-family: 'Alkalami', serif;
+    position: relative;
+}
+
+.izobr-tovara {
+    height: 375px;
+    width: 100%;
+    outline: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.sama-photka {
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+    vertical-align: middle;
+    margin: 0 auto;
+    outline: none;
+    border: none;
+}
+
+.nazvanie-tovara {
+    text-align: left;
+}
+
+.brand-tovara {
+    font-size: 16px;
+    font-family: 'Mina', sans-serif;
+    font-weight: 600;
+    color: #292A2F;
+    line-height: 18px;
+}
+
+.kakoi-tovar {
+    font-size: 14px;
+    font-weight: 400;
+    color: #9B9B9B;
+    margin: 7px 0 2px;
+    line-height: 16px;
+}
+
+.novaya-cena {
+    font-size: 18px;
+    font-weight: 600;
+    color: #333;
+    display: inline-block;
+}
+
+.staraya-cena {
+    font-size: 13px;
+    margin-left: 5px;
+    color: #666;
+    position: relative;
+    font-weight: 400;
+    text-decoration: line-through;
+    display: inline-block;
+}
+
+.rec-text {
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 1.4;
+    margin: 15px 0;
+    margin-top: 50px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.exclusive {
+    margin-right: 0;
+    background-color: orangered;
+    color: white;
+    padding-left: 2px;
+    padding-right: 2px;
+    height: 22px;
+    align-items: center;
+    justify-content: center;
+    padding: 0 12px 0;
+    font-size: 12px;
+    position: relative;
+}
+
+.carousel {
+    position: relative;
+}
+
+.swipe-carousel {
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    list-style: none;
+    padding: 0;
+    z-index: 1;
+}
+
+.in-swipe {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    display: flex;
+}
+
+.in-in-swipe {
+    width: 200px;
+    margin-right: 30px;
+    height: auto;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.brands-photo {
+    max-width: 100%;
+    max-height: 100%;
+    width: 200px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.brand {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    height: 115px;
+    border: 1px solid #e5e5e5;
+    position: relative;
+}
+
+.podrobnee {
+    text-align: center;
+    margin-top: 35px;
+}
+
+.butterbrand {
+    vertical-align: top;
+    border: 2px solid blue;
+    font-size: 16px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    background: blue;
+    display: inline-flex;
+    height: 45px;
+    text-align: center;
+    padding: 0px 35px;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    text-decoration: none; 
+    display: inline-flex;
+}
+
+.glava {
+    margin-top: 100px;
+}
+
+
+
+/* Стили для текстового поля с кнопкой "Далее" */
+.limiter {
+    max-height: 200px;
+    overflow: hidden;
+    position: relative;
+  }
+  .limiter .bottom {
+    position: absolute; /* Если прыгает - можно попробовать sticky */
+    bottom: 0;
+    background: linear-gradient(
+      to bottom,
+      rgb(255 217 29 / 0%),
+      rgb(255 255 255)90%);
+    width: 100%;
+    height: 60px;
+    opacity: 1;
+    transition: 0.3s;
+  }
+  .read-more-checker {
+    opacity: 0;
+    position: absolute;
+  }
+  .read-more-checker:checked ~ .limiter {
+    max-height: none;
+  }
+  .read-more-checker:checked ~ .limiter .bottom {
+    opacity: 0;
+    transition: 0.3s;
+  }
+  .read-more-checker ~ .read-more-button:before {
+    content: "Читать далее";
+    margin-left: 620px;
+    vertical-align: top;
+    border: 2px solid blue;
+    font-size: 16px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    background: blue;
+    display: inline-flex;
+    height: 45px;
+    width: 165px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    text-decoration: none; 
+    display: inline-flex;
+  }
+  .read-more-checker:checked ~ .read-more-button:before {
+    content: "Скрыть";
+    margin-left: 620px;
+    vertical-align: top;
+    border: 2px solid blue;
+    font-size: 16px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    background: blue;
+    display: inline-flex;
+    height: 45px;
+    width: 165px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    text-decoration: none; 
+    display: inline-flex;
+  }
+  .read-more-button {
+    cursor: pointer;
+    display: inline-block;
+    color: #777;
+    text-decoration: underline;
+  }
+  
+p, h3, h5, h6 {
+    font-size: 12px;
+    color: #737373;
+}
+
+.under-li {
+    font-size: 12px;
+    color: #737373;
+}
+
+
+@media screen and (max-width: 1000px) {
+    section {
+        display: none;
+    }
+
+    .contacts-justnumber {
+        display: none;
+    }
+
+    .contacts-whatsappnumber {
+        display: none;
+    }
+
+    .divka-tovara-margin {
+        margin-top: 130px;
+    }
+
+    .read-more-checker ~ .read-more-button:before {
+        margin-left: 304px;
+    }
+
+    .read-more-checker:checked ~ .read-more-button:before {
+        margin-left: 302px;
+    }
+
+    .footer-soc {
+        padding-right: 50px;
+    }
+
+    .foot-denis {
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 400px) {
+    section {
+        display: none;
+    }
+
+    header {
+        max-width: 400px;
+    }
+
+    .contacts-justnumber {
+        display: none;
+    }
+
+    .contacts-whatsappnumber {
+        display: none;
+    }
+
+    .divka-tovara-margin {
+        margin-top: 130px;
+    }
+
+    .izobr-tovara {
+        width: 180%;
+        margin-top: -50px;
+    }
+
+    .tovar {
+        margin-right: 35px;
+    }
+
+    .kategoria-text {
+        margin-left: -30px;
+        font-size: 8px;
+    }
+
+    .logo-img {
+        width: 155px;
+        margin-top: 5px;
+    }
+
+    .input {
+        width: 200px;
+    } 
+
+    .button-search {
+        width: 10px;
+        margin-right: 5px;
+    }
+
+    .nazvanie-tovara {
+        margin-top: -90px;
+    }
+
+    .read-more-checker ~ .read-more-button:before {
+        margin-left: 98px;
+    }
+
+    .read-more-checker:checked ~ .read-more-button:before {
+        margin-left: 98px;
+    }
+
+    .foot-denis {
+        display: none;
+    }
+
+    .footer-2 {
+        margin-left: -15px;
+        padding-right: 0;
+    }
+}
