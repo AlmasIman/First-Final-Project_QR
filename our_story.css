@@ -233,63 +233,176 @@
     font-size: 3.5em; 
 }
 
+.footer {
+    margin-top: 25%;
+}
+.container{
+	max-width: 1170px;
+	margin:auto;
+}
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+ul{
+	list-style: none;
+}
 
 
-@media (max-width: 400px) {
+.footer{
+	background-color: #24262b;
+    padding: 70px 0;
+}
+.footer-col{
+   width: 25%;
+   padding: 0 15px;
+}
+.footer-col h4{
+	font-size: 18px;
+	color: #ffffff;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 500;
+	position: relative;
+}
+.footer-col h4::before{
+	content: '';
+	position: absolute;
+	left:0;
+	bottom: -10px;
+	background-color: blue;
+	height: 2px;
+	box-sizing: border-box;
+	width: 50px;
+}
+.footer-col ul li:not(:last-child){
+	margin-bottom: 10px;
+}
+.footer-col ul li a{
+	font-size: 16px;
+	text-transform: capitalize;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: 300;
+	color: #bbbbbb;
+	display: block;
+	transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+	color: #ffffff;
+	padding-left: 8px;
+}
+.footer-col .social-links a{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: rgba(255,255,255,0.2);
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #ffffff;
+	transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover{
+	color: #24262b;
+	background-color: #ffffff;
+}
+
+/*responsive*/
+@media(max-width: 767px){
+  .footer-col{
+    width: 50%;
+    margin-bottom: 30px;
+}
+}
+@media(max-width: 574px){
+  .footer-col{
+    width: 100%;
+}
+}
+/*            */
+
+
+@media (max-width: 401px) {
     
+    .story_chast{
+        display: block;
+        margin: 0;
+        padding: 0;
+    }
     .img-container{
+        position: relative;
         width: 45vw;
-        margin: 110vh 0 0 20vw;
     }
     .img-container img{
-        width: 400px;
+        width: 380px;
         height: 300px;
+        margin: 0 auto;
     }
     #zagalovok{
-        font-size: 45px;
-        width: 80vw;
+        font-size: 35px;
+        width: 380px;
+        padding: 0;
     }
-    #zagalovok, #history, #explore_button{
-       margin:5vh 8vw;
-    }
+   
     #history{
         font-size: 18px;
     }
     #explore_button{
-     width: 30vh; 
-     height: 10vh;
+     width: 100px; 
+     height: 10px;
      font-size: 12px;
-     padding: 15px 2px 0 2px;
+     padding: 10px 2px 15px 2px;
     }
     .image_text{
-        width: 650px;
-        
+        margin: -20vh 0 0 -10px;
+        width: 400px;
     }
     .image_text img{
-        width: 680px;
+        margin: 0 auto;
+        width: 380px;
         object-fit: contain;
     }
     .history_story{
-        width: 180vw;
+        width: 380px;
+    }
+    .history_story p{
+        font-size: 18px;
+        width: 380px;
     }
     h1{
         font-size: 2rem;
-        width: 180vw;
+        width: 380px;
     }
     .discount{
-        width: 150vw;
-        margin: 10vh 40px;
+        width: 380px;
     }
     #d_image img{
-        width: 75vw;
-        height: 60vh;
+        width: 180px;
+        height: 160px;
     }
     #d_text p{
-        font-size: 20px;
+        font-size: 12px;
+        padding-left: 8px;
+    }
+    form{
+        padding-left: 8px;
+    }
+    #emailAddress{
+        width: 120px;
+        height: 18px;
+    }
+    #button{
+        width: 50px;
+        font-size: 10px;
     }
     .faqs{
-        width: 100vw;
-        margin: 10vh 50vw;
+        width: 200px;
+        font-size: 8px;
+    }
+    .faq-header h3{
+        font-size: 8px;
     }
     
 }

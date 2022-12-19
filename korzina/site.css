@@ -432,7 +432,6 @@ footer{
     color: rgb(101, 99, 102);
 }
 
-/* media queries for responsive view */
 @media only screen and (min-width : 800px){
     .card{
         grid-template-columns: repeat(4,1fr);
@@ -446,9 +445,40 @@ footer{
     #bars{
         display: none;
     }
+    #details-img{
+        width: 11rem;
+        height: 14rem;
+        padding: 0.2rem;
+    }
+    #detail-price,#delievery,#you-save{
+        margin-top: 0.1rem;
+        font-size: 10px;
+    }
+    #spec,.items-detail  ul{
+        display: none;
+    }
+    .image-container{
+        padding: 1rem;
+        margin-top: 0rem;
+    }
+    #carts, #buy{
+        font-size: 10px;
+        margin-bottom: 20px;
+    }
 }
 
 @media only screen and (max-width : 800px){
+    .sale{
+        margin: 0 auto;
+        width: 300px;
+        height: 300px;
+        align-items: center;
+        justify-content: center;
+    }
+    .sale img{
+        width: 300px;
+        height: 300px;
+    }
     .items-detail{
         display: block;
         width: 70vw;
@@ -463,14 +493,19 @@ footer{
         font-size: 1.7rem;
         margin-top: 0rem;
     }
-    #detail-price,#delievery{
-        margin-top: 0.5rem;
+    #detail-price,#delievery,#you-save{
+        margin-top: 0.1rem;
+        font-size: 10px;
     }
     #spec,.items-detail  ul{
         display: none;
     }
     .image-container{
         padding: 1rem;
-        margin-top: 1rem;
+        margin-top: 0rem;
+    }
+    #carts, #buy{
+        font-size: 10px;
+        margin-bottom: 20px;
     }
 }
