@@ -18,22 +18,36 @@
 </head>
 <body>
     <header>
-        <div class="backgraund-div-header"></div>
-
-        <a href="index.html" class="logo"><img src="img/newQrLogo.png" alt=""></a>
-
-        <ul class="navbar">
-            <li><a href="men.html">MEN</a></li>
-            <li><a href="Women.html">WOMEN</a></li>
-            <li><a href="#">COLLECTIONS</a></li>
-            <li><a href="#">EXPLORE</a></li>
-        </ul>
-
-        <div class="main">
-            <a href="#" class="user"><i class="ri-user-line"></i></a>
-            <a href="#" class="basket"><i class="ri-shopping-cart-line"></i></a>
-            <div class="bx bx-menu" id="menu-icon"></div>
-        </div>
+        <nav class="navbar">
+            <a href="index.html" class="bav-branding">Qazaq Repablic.</a>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="men.html" class="nav-link">Men</a>
+                </li>
+                <li class="nav-item">
+                    <a href="Women.html" class="nav-link">women</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Collections</a>
+                </li>
+                <li class="nav-item">
+                    <a href="our_story.html" class="nav-link">Our Story</a>
+                </li>
+                <li class="nav-item">
+                    <a href="our_process.html" class="nav-link">Our process</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <div class="main">
+                <a href="php-signup-login-main/login.php" class="user"><i class="ri-user-line"></i></a>
+                <a href="#" class="basket"><i class="ri-shopping-cart-line"></i></a>
+                <div class="bx bx-menu" id="menu-icon"></div>
+            </div>
+        </nav>
     </header>
 
 
@@ -54,7 +68,7 @@
                         </div>
                     </div>
                     <div class="winter_collectian_div">
-                        <img src="img/new-winter_collectia.png">
+                        <img class="winter_collectian_div_img" src="img/new-winter_collectia.png">
                     </div>
                     <div class="linia-number-2"></div>
                 </div>
@@ -62,7 +76,7 @@
                 <div class="winter-sezon-clouses">
                     <div class="bir-kurtka-divkasy">
                         <div class="new-soz-img-ustndegi">New!</div>
-                        <img src="img/sary-kiz-kurtka.png" onmouseover="newkurtka1(this)" onmouseout="oldkurtka1(this)">
+                        <img id="photo-new-soz-astyndagi" src="img/sary-kiz-kurtka.png" onmouseover="newkurtka1(this)" onmouseout="oldkurtka1(this)">
                         <div class="linia"></div>
                         <div class="kurtka-astyndagy-soz">
                             <div>Kurtka</div>
@@ -105,7 +119,7 @@
                         </div>
                     </div>
                     <div class="winter_collectian_div">
-                        <img src="img/new-winter_collectia.png">
+                        <img class="winter_collectian_div_img" src="img/new-winter_collectia.png">
                     </div>
                     <div class="linia-number-2"></div>
                 </div>
@@ -113,7 +127,7 @@
                 <div class="winter-sezon-clouses">
                     <div class="bir-kurtka-divkasy">
                         <div class="new-soz-img-ustndegi">New!</div>
-                        <img src="img/1465Black-futbolka.png" onmouseover="newFutbolka1(this)" onmouseout="oldFutbolka1(this)">
+                        <img id="photo-new-soz-astyndagi" src="img/1465Black-futbolka.png" onmouseover="newFutbolka1(this)" onmouseout="oldFutbolka1(this)">
                         <div class="linia"></div>
                         <div class="kurtka-astyndagy-soz">
                             <div>EST.1465</div>
@@ -166,7 +180,7 @@
                         </div>
                     </div>
                     <div class="winter_collectian_div">
-                        <img src="img/new-winter_collectia.png">
+                        <img class="winter_collectian_div_img" src="img/new-winter_collectia.png">
                     </div>
                     <div class="linia-number-2"></div>
                 </div>
@@ -174,7 +188,7 @@
                 <div class="winter-sezon-clouses">
                     <div class="bir-kurtka-divkasy">
                         <div class="new-soz-img-ustndegi">New!</div>
-                        <img src="img/kok-rubashka.png" onmouseover="newHudi1(this)" onmouseout="oldHudi1(this)">
+                        <img id="photo-new-soz-astyndagi" src="img/kok-rubashka.png" onmouseover="newHudi1(this)" onmouseout="oldHudi1(this)">
                         <div class="linia"></div>
                         <div class="kurtka-astyndagy-soz">
                             <div>EST.1465</div>
@@ -262,6 +276,7 @@
         </div>
     </footer>
 
+    <script src="navbar.js"></script>
     <script src="womenSmenaKartinki.js"></script>
 </body>
 </html>
