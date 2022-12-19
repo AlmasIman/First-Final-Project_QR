@@ -23,8 +23,9 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
             session_regenerate_id();
             
             $_SESSION["user_id"] = $user["id"];
-            
-            header("Location: http://localhost:8080/First-Final-Project_QR/index.html");
+             
+            header("Location: http://localhost:8080/First-Final-Project_QR/index2.html");
+
             exit;
         }
     }
@@ -39,7 +40,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     <title>Login</title>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="css/loginStyle.css">
-    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+   
 </head>
 <body>
     
@@ -64,8 +65,8 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
         
         <label for="password">Password</label>
         <input type="password" name="password" id="password">
-			<a href="#">Forgot your password?</a>
-			<button>Sign In</button>
+			<a href="https://support.google.com/accounts/answer/7682439?hl=en">Forgot your password?</a>
+			<button >Sign In</button>
     </form>
     
     </div>

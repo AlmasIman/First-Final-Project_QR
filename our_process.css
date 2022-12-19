@@ -1,6 +1,6 @@
 
 .man{
-     margin: 15vh auto;
+     margin: 0 auto;
      height: 95vh;
      width: 100%;
 }
@@ -47,20 +47,21 @@
 .gmap_canvas {
     overflow:hidden;
     background:none!important;
-    height:500px;
-    width:600px;
+    height: 500px;
+    width: 500px;
 }
 .mapouter{
     position:relative;
     text-align:right;
     height:500px;
-    width:600px;
+    width:500px;
     float: right;
     margin-right: 15vh;
 }
 .map_img, .mapouter{
     display: inline-block;
-    margin: 10vh 10vh;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
 }
 .map_img{
     height: 500px;
@@ -69,7 +70,7 @@
 }
 .map_img img{
     height:500px;
-    width: 700px;
+    width: 500px;
     margin: 0vh 10vh;
 }
 
@@ -291,7 +292,7 @@
   border-radius: 75px;
   padding: 20px;
   font-family: 'Montserrat', sans-serif;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: lighter;
   letter-spacing: 2px;
   transition: 1s box-shadow;
@@ -488,8 +489,8 @@ background-color: #ffffff;
 
 @media (max-width: 400px) {
   .man{
-    margin: 40vh auto 0 auto;
     width: 380px;
+    height: 380px;
   }
   #main_img{
     width: 380px;
@@ -550,6 +551,33 @@ background-color: #ffffff;
   height: 220px;
   width: 360px;
  }
- 
-  
+}
+
+@media(min-width: 800px) {
+  *{margin: 0;}
+     .story_chast{
+      margin-left: 10vh;
+     } 
+     .mapouter, .map_img{
+      margin: 0;
+      justify-content: center;
+      align-items: center;
+      width: 800px;
+     }
+     .gmap_canvas{
+      margin: 0 auto;
+     }
+     .map_img img{
+      margin: 10px 150px;
+     }
+     .hover{
+      font-size: 2rem;
+     }
+     #text_v{
+      font-size: 13px;
+     }
+     #text_v:hover::before, .text:hover::after{
+       width: 360px;
+       height: 230px;
+     }
 }
