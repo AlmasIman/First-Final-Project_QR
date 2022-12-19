@@ -1,6 +1,6 @@
 
 .man{
-     margin: 15vh auto;
+     margin: 0 auto;
      height: 95vh;
      width: 100%;
 }
@@ -47,20 +47,21 @@
 .gmap_canvas {
     overflow:hidden;
     background:none!important;
-    height:500px;
-    width:600px;
+    height: 500px;
+    width: 500px;
 }
 .mapouter{
     position:relative;
     text-align:right;
     height:500px;
-    width:600px;
+    width:500px;
     float: right;
     margin-right: 15vh;
 }
 .map_img, .mapouter{
     display: inline-block;
-    margin: 10vh 10vh;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
 }
 .map_img{
     height: 500px;
@@ -69,7 +70,7 @@
 }
 .map_img img{
     height:500px;
-    width: 700px;
+    width: 500px;
     margin: 0vh 10vh;
 }
 
@@ -291,7 +292,7 @@
   border-radius: 75px;
   padding: 20px;
   font-family: 'Montserrat', sans-serif;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: lighter;
   letter-spacing: 2px;
   transition: 1s box-shadow;
@@ -396,6 +397,7 @@
   }
 }
 
+/*               Footer                */
 .footer {
   margin-top: 25%;
 }
@@ -485,55 +487,97 @@ background-color: #ffffff;
 /*            */
 
 
-
 @media (max-width: 400px) {
-  *{
-    width: 210vw;
-    margin: 0 auto;
-  }
   .man{
-    margin: 40vh auto 0 auto;
-    width: 210vw;
+    width: 380px;
+    height: 380px;
   }
   #main_img{
-    width: 210vw;
+    width: 380px;
+    height: 300px;
+  }
+  #span{
+    width: 380px;
+    font-size: 15vw;
   }
   .text{
-    width: 210vw;
-    font-size: 5vh;
+    margin: 10px auto;
+    width: 360px;
+    font-size: 13px;
   }
   
   .mapouter{
-    width: 200vw;
+    width: 380px;
+    margin: 10px 0;
   }
   .gmap_canvas{
     justify-content: center;
-    margin: 0 auto;
+    width: 380px;
+    margin: 0 0 0 0;
+  }
+  .map_img{
+    margin: 20px 0;
   }
   .map_img img{
     margin: 0 auto;
+    width: 380px;
+    height: 380px;
   }
   .hover{
-    font-size: 2rem;
+    font-size: 1rem;
     width: 50%;
     padding: 0;
   }
   .hover p{
-    text-align: center;
-    width: 100vw;
+    width: 200px;
+    font-size: 0.5rem;
+  }
+  .loop-wrapper{
+    height: 180px;
   }
   #video{
-    width: 150vw;
-    margin: 0 0 0 -20vh;
+    width: 380px;
+    margin: 0;
   }
   .video_text p{
-    width: 150vw;
+    width: 400px;
     text-align: center;
   }
   #text_v{
     font-size: 10px;
-
+    margin-left: 5px;
   }
- 
-  
+  #text_v:hover::before, .text:hover::after{
+  height: 220px;
+  width: 360px;
+ }
+}
+
+@media(min-width: 800px) {
+  *{margin: 0;}
+     .story_chast{
+      margin-left: 10vh;
+     } 
+     .mapouter, .map_img{
+      margin: 0;
+      justify-content: center;
+      align-items: center;
+      width: 800px;
+     }
+     .gmap_canvas{
+      margin: 0 auto;
+     }
+     .map_img img{
+      margin: 10px 150px;
+     }
+     .hover{
+      font-size: 2rem;
+     }
+     #text_v{
+      font-size: 13px;
+     }
+     #text_v:hover::before, .text:hover::after{
+       width: 360px;
+       height: 230px;
+     }
 }

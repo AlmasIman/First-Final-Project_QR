@@ -1,0 +1,136 @@
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    @media (prefers-reduced-motion: no-preference) {
+      :root {
+        scroll-behavior: smooth;
+      }
+    }
+
+    .timer {
+      margin: 0;
+      font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+      font-size: 1rem;
+      font-weight: 400;
+      line-height: 1.5;
+      color: #212529;
+      background-color: #fff;
+      -webkit-text-size-adjust: 100%;
+      -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+      display: flex;
+      justify-content: center;
+    }
+
+    .timer__items {
+      display: flex;
+      font-size: 48px;
+    }
+
+    .timer__item {
+      position: relative;
+      min-width: 60px;
+      margin-left: 10px;
+      margin-right: 10px;
+      padding-bottom: 15px;
+      text-align: center;
+    }
+
+    .timer__item::before {
+      content: attr(data-title);
+      display: block;
+      position: absolute;
+      left: 50%;
+      bottom: 0;
+      transform: translateX(-50%);
+      font-size: 14px;
+    }
+
+    .timer__item:not(:last-child)::after {
+      content: ':';
+      position: absolute;
+      right: -15px;
+    }
+
+    .timer {
+        background-color: aqua;
+    }
+
+    .bir-div {
+        background-color: rgb(150, 150, 150);
+        display: grid;
+        justify-content: center;
+    }
+
+    .black-friday-soz {
+        color: white;
+        font-size: 100px;
+        margin-left: 320px;
+    }
+
+    .black-friday-kom {
+        display: flex;
+        gap: 40px;
+        justify-content: center;
+        margin-top: 30px;
+        color: white;
+        font-size: 20px;
+        margin-left: 300px;
+    }
+
+    .sale1 {
+        margin-top: -50px;
+        width: 300px;
+    }
+
+    .tri-bogatirya {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 200px;
+    }
+
+    .dongalak-text {
+        display: flex;
+        border: 1px solid black;
+        border-radius: 70px;
+        height: 180px;
+        width: 200px;
+        justify-content: center;
+        padding-top: 30px;
+    }
+
+    .procent {
+        color: #fff;
+        font-size: 50px;
+    }
+
+    .simvol {
+        color: #fff;
+    }
+
+    .off {
+        color: #fff;
+        font-size: 25px;
+        margin-top: 23px;
+    }
+
+    .dongalak-com {
+        color: white;
+        margin-top: -230px;
+        margin-left: 30px;
+        font-size: 20px;
+    }
+
+    .dongalak {
+        display: grid;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .krug {
+        margin-left: 10px;
+        margin-top: -100px;
+        cursor: pointer;
+    }
