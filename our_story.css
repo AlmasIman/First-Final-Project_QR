@@ -185,6 +185,7 @@ a {
     margin: 10px 20vh;
 }
 .text, .img-container{
+    z-index: -10000;
     padding: 1em;
     height: 50%;
 }
@@ -202,6 +203,19 @@ a {
 
 .img-container .main-img {
     width: 350px;
+}
+
+@media(max-width: 800px) {
+    .img-container {
+        margin: 40vh 0 0 9vw;
+        transform: translate(-50%, -50%);
+        animation: animate .7s infinite ease-in-out;
+    }
+    .img-container img{
+        width: 350px;
+        height: 400px;
+    }
+    
 }
 
 @keyframes animate {
@@ -487,7 +501,7 @@ ul{
 }
 
 /*responsive*/
-@media(max-width: 767px){
+@media(max-width: 800px){
   .footer-col{
     width: 50%;
     margin-bottom: 30px;

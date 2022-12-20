@@ -116,7 +116,7 @@ a {
   }
 
   .nav-menu {
-      max-width: 100%;
+      max-width: 80%;
       position: fixed;
       left:  -100%;
       top: 50px;
@@ -155,7 +155,6 @@ a {
 
   .nav-menu {
       max-width: 93%;
-      position: fixed;
       left:  -100%;
       top: 50px;
       gap: 0;
@@ -185,11 +184,13 @@ a {
     height: 80vh;
     width: 100%;
     position: absolute;
+    z-index: -10000;
     float: left;
 }
 #span{
     margin: 0 auto;
     position: relative;
+    z-index: -10000;
     width: 105vh;
     height: 10vh;
     text-align: center;
