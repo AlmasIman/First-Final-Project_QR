@@ -1,4 +1,4 @@
-.header {
+/* .header {
     
     display: block;
     background-color: #eef4f2;
@@ -622,4 +622,46 @@ input{
     flex-wrap: wrap;
     align-items: center;
     padding: 0 5px 5px;
+} */
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
 }
+
+.first {
+    display: flex;
+    justify-content: space-around;
+}
+
+img {
+    width: 200px;
+}
+
+.second {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ehala {
+    margin-left: 20px;
+}
+
+.as {
+    margin-left: 20px;
+    border: 2px solid;
+    width: 200px;
+    height: 50px;
+}
+
+.yess {
+    border: 2px solid;
+    margin: 20px;
+    width: 425px;
+    height: 100px;
+}
+
