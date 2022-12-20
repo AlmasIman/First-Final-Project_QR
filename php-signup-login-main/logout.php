@@ -4,5 +4,8 @@ session_start();
 
 session_destroy();
 
-header("Location: index.php");
+header("Location: http://localhost:8080/First-Final-Project_QR/index.html");
 exit;
+?>
+
+

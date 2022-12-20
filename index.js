@@ -1,16 +1,17 @@
-let menu = document.querySelector('#menu-icon');
+/* let menu = document.querySelector('#menu-icon');
 let navbar = document.querySelector('.navbar');
 
 menu.onclick = () => {
 	navbar.classList.toggle('bx-x');
 	navbar.classList.toggle('open');
-}
+} */
+
 
 $(document).ready(function(){
 	$('.slider').slick({
 		arrows:true,
 		dots:true,
-		slidesToShow:4,
+		slidesToShow:3,
 		autoplay:true,
 		speed:1000,
 		autoplaySpeed:800,
@@ -30,3 +31,4 @@ $(document).ready(function(){
 		]
 	});
 });
+
